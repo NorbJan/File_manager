@@ -111,9 +111,9 @@ class View(QtWidgets.QMainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.grpBox_buttons.setTitle(_translate("MainWindow", "Tools"))
         self.pB_4.setText(_translate("MainWindow", "Delete"))
-        self.pB_3.setText(_translate("MainWindow", "Make Directory"))
+        self.pB_3.setText(_translate("MainWindow", "Make"))
         self.pB_1.setText(_translate("MainWindow", "Copy"))
-        self.pB_2.setText(_translate("MainWindow", "Edit (if file)"))
+        self.pB_2.setText(_translate("MainWindow", "View"))
 
     def _file_model_setup(self):
         # MyComputer view
